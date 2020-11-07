@@ -1,5 +1,7 @@
 ## Informacinius Sistemu Pagrindu Projektas
-
+  - git clone 
+  - add cloned repository directory to Docker -> Settings -> Resources -> File Sharing 
+  - docker-compose up -d
 ## Usage
 
 To get started, make sure you have [Docker installed](https://docs.docker.com/docker-for-mac/install/) on your system, and then clone this repository.
