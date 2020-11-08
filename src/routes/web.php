@@ -20,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::view('/products', 'products')->name('products');
-Route::view('/administrator', 'employees')->name('employees');
+Route::view('/administrator', 'administrator')->name('administrator');
 Route::view('/orderProductsHistory', 'order-products-history')->name('orderProductsHistory');
 Route::view('/soldProductsHistory', 'sold-products-history')->name('soldProductsHistory');
 
