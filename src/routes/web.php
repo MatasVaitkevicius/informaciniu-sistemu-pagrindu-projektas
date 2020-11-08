@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::view('/products', 'products')->name('products');
+Route::view('/administrator', 'employees')->name('employees');
+Route::view('/orderProductsHistory', 'order-products-history')->name('orderProductsHistory');
+Route::view('/soldProductsHistory', 'sold-products-history')->name('soldProductsHistory');
+
+Auth::routes();
+
