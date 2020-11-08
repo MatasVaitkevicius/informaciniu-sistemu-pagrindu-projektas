@@ -40,10 +40,22 @@
                         <a class="nav-link" href="{{ route('administrator') }}">{{ __('Administrator') }}</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="{{ route('orderProductsHistory') }}">{{ __('Product Order History ') }}</a>
+                        <a class="nav-link" href="{{ route('traders') }}">{{ __('Traders') }}</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ route('buyers') }}">{{ __('Buyers') }}</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ route('unapprovedProducts') }}">{{ __('Unapproved Products') }}</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ route('cryptoPrices') }}">{{ __('Crypto Prices') }}</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="{{ route('soldProductsHistory') }}">{{ __('Sold Products History') }}</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="{{ route('orderProductsHistory') }}">{{ __('Product Order History') }}</a>
                       </li>
                     </ul>
 

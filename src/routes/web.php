@@ -23,6 +23,10 @@ Route::view('/products', 'products')->name('products');
 Route::view('/administrator', 'administrator')->name('administrator');
 Route::view('/orderProductsHistory', 'order-products-history')->name('orderProductsHistory');
 Route::view('/soldProductsHistory', 'sold-products-history')->name('soldProductsHistory');
+Route::view('/traders', 'traders')->name('traders');
+Route::view('/buyers', 'buyers')->name('buyers');
+Route::view('/unapprovedProducts', 'unapprovedProducts')->name('unapprovedProducts');
+Route::view('/cryptoPrices', 'cryptoPrices')->name('cryptoPrices');
 
 Auth::routes();
 
